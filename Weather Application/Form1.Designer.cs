@@ -56,7 +56,7 @@ namespace Weather_Application
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(100, 120);
+            this.label1.Location = new System.Drawing.Point(65, 62);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 23);
             this.label1.TabIndex = 0;
@@ -65,9 +65,9 @@ namespace Weather_Application
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(161, 122);
+            this.textBox1.Location = new System.Drawing.Point(118, 59);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(221, 31);
+            this.textBox1.Size = new System.Drawing.Size(266, 31);
             this.textBox1.TabIndex = 1;
             // 
             // SearchButton
@@ -75,9 +75,9 @@ namespace Weather_Application
             this.SearchButton.BackColor = System.Drawing.Color.Transparent;
             this.SearchButton.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SearchButton.ForeColor = System.Drawing.Color.Black;
-            this.SearchButton.Location = new System.Drawing.Point(418, 120);
+            this.SearchButton.Location = new System.Drawing.Point(405, 52);
             this.SearchButton.Name = "SearchButton";
-            this.SearchButton.Size = new System.Drawing.Size(75, 33);
+            this.SearchButton.Size = new System.Drawing.Size(91, 48);
             this.SearchButton.TabIndex = 2;
             this.SearchButton.Text = "Search";
             this.SearchButton.UseVisualStyleBackColor = false;
@@ -86,7 +86,7 @@ namespace Weather_Application
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Location = new System.Drawing.Point(104, 194);
+            this.pictureBox1.Location = new System.Drawing.Point(118, 131);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 58);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -105,11 +105,11 @@ namespace Weather_Application
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(110, 288);
+            this.label3.Location = new System.Drawing.Point(114, 259);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 23);
+            this.label3.Size = new System.Drawing.Size(94, 23);
             this.label3.TabIndex = 5;
             this.label3.Text = "Condition";
             // 
@@ -117,11 +117,11 @@ namespace Weather_Application
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(114, 333);
+            this.label4.Location = new System.Drawing.Point(115, 311);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 23);
+            this.label4.Size = new System.Drawing.Size(69, 23);
             this.label4.TabIndex = 6;
             this.label4.Text = "Deatils";
             // 
@@ -129,35 +129,34 @@ namespace Weather_Application
             // 
             this.LabCondition.AutoSize = true;
             this.LabCondition.BackColor = System.Drawing.Color.Transparent;
-            this.LabCondition.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabCondition.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabCondition.ForeColor = System.Drawing.Color.White;
-            this.LabCondition.Location = new System.Drawing.Point(214, 297);
+            this.LabCondition.Location = new System.Drawing.Point(229, 262);
             this.LabCondition.Name = "LabCondition";
-            this.LabCondition.Size = new System.Drawing.Size(39, 23);
+            this.LabCondition.Size = new System.Drawing.Size(0, 23);
             this.LabCondition.TabIndex = 7;
-            this.LabCondition.Text = "N/A";
             // 
             // LabDetails
             // 
+            this.LabDetails.AllowDrop = true;
             this.LabDetails.AutoSize = true;
             this.LabDetails.BackColor = System.Drawing.Color.Transparent;
-            this.LabDetails.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabDetails.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabDetails.ForeColor = System.Drawing.Color.White;
-            this.LabDetails.Location = new System.Drawing.Point(213, 333);
+            this.LabDetails.Location = new System.Drawing.Point(229, 311);
             this.LabDetails.Name = "LabDetails";
-            this.LabDetails.Size = new System.Drawing.Size(39, 23);
+            this.LabDetails.Size = new System.Drawing.Size(0, 23);
             this.LabDetails.TabIndex = 8;
-            this.LabDetails.Text = "N/A";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(418, 194);
+            this.label5.Location = new System.Drawing.Point(496, 217);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 23);
+            this.label5.Size = new System.Drawing.Size(72, 23);
             this.label5.TabIndex = 9;
             this.label5.Text = "Sunrise";
             // 
@@ -165,11 +164,11 @@ namespace Weather_Application
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(418, 229);
+            this.label6.Location = new System.Drawing.Point(496, 262);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(62, 23);
+            this.label6.Size = new System.Drawing.Size(65, 23);
             this.label6.TabIndex = 10;
             this.label6.Text = "Sunset";
             // 
@@ -177,11 +176,11 @@ namespace Weather_Application
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(414, 278);
+            this.label7.Location = new System.Drawing.Point(496, 322);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(102, 23);
+            this.label7.Size = new System.Drawing.Size(108, 23);
             this.label7.TabIndex = 11;
             this.label7.Text = "Wind Speed";
             // 
@@ -189,11 +188,11 @@ namespace Weather_Application
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(418, 311);
+            this.label8.Location = new System.Drawing.Point(496, 368);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(78, 23);
+            this.label8.Size = new System.Drawing.Size(81, 23);
             this.label8.TabIndex = 12;
             this.label8.Text = "Prassure";
             // 
@@ -201,49 +200,45 @@ namespace Weather_Application
             // 
             this.LabSunrise.AutoSize = true;
             this.LabSunrise.BackColor = System.Drawing.Color.Transparent;
-            this.LabSunrise.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabSunrise.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabSunrise.ForeColor = System.Drawing.Color.White;
-            this.LabSunrise.Location = new System.Drawing.Point(535, 194);
+            this.LabSunrise.Location = new System.Drawing.Point(620, 217);
             this.LabSunrise.Name = "LabSunrise";
-            this.LabSunrise.Size = new System.Drawing.Size(39, 23);
+            this.LabSunrise.Size = new System.Drawing.Size(0, 23);
             this.LabSunrise.TabIndex = 13;
-            this.LabSunrise.Text = "N/A";
             // 
             // LabSunset
             // 
             this.LabSunset.AutoSize = true;
             this.LabSunset.BackColor = System.Drawing.Color.Transparent;
-            this.LabSunset.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabSunset.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabSunset.ForeColor = System.Drawing.Color.White;
-            this.LabSunset.Location = new System.Drawing.Point(535, 229);
+            this.LabSunset.Location = new System.Drawing.Point(620, 259);
             this.LabSunset.Name = "LabSunset";
-            this.LabSunset.Size = new System.Drawing.Size(39, 23);
+            this.LabSunset.Size = new System.Drawing.Size(0, 23);
             this.LabSunset.TabIndex = 14;
-            this.LabSunset.Text = "N/A";
             // 
             // LabWindSpeed
             // 
             this.LabWindSpeed.AutoSize = true;
             this.LabWindSpeed.BackColor = System.Drawing.Color.Transparent;
-            this.LabWindSpeed.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabWindSpeed.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabWindSpeed.ForeColor = System.Drawing.Color.White;
-            this.LabWindSpeed.Location = new System.Drawing.Point(535, 278);
+            this.LabWindSpeed.Location = new System.Drawing.Point(620, 322);
             this.LabWindSpeed.Name = "LabWindSpeed";
-            this.LabWindSpeed.Size = new System.Drawing.Size(39, 23);
+            this.LabWindSpeed.Size = new System.Drawing.Size(0, 23);
             this.LabWindSpeed.TabIndex = 15;
-            this.LabWindSpeed.Text = "N/A";
             // 
             // LabPressure
             // 
             this.LabPressure.AutoSize = true;
             this.LabPressure.BackColor = System.Drawing.Color.Transparent;
-            this.LabPressure.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabPressure.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabPressure.ForeColor = System.Drawing.Color.White;
-            this.LabPressure.Location = new System.Drawing.Point(535, 311);
+            this.LabPressure.Location = new System.Drawing.Point(620, 368);
             this.LabPressure.Name = "LabPressure";
-            this.LabPressure.Size = new System.Drawing.Size(39, 23);
+            this.LabPressure.Size = new System.Drawing.Size(0, 23);
             this.LabPressure.TabIndex = 16;
-            this.LabPressure.Text = "N/A";
             // 
             // Form1
             // 
